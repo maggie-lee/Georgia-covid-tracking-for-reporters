@@ -7,7 +7,7 @@ The Georgia Department of Public Health is publishing a daily COVID-19 status re
 
 #### Archived copies of the page
 
-If you want to track changes over time in the number of tests or number of cases, you can get archived copies of earlier versions of the state page at the [Internet Archive's Wayback Machine.](https://web.archive.org)
+If you want to track changes over time in the number of tests or number of cases, you can get archived copies of earlier versions of the state page at the Internet Archive's Wayback Machine.
 
 It looks like several bots are archiving the state's page every couple of hours. So you can see [archived copies of the state page.](https://web.archive.org/web/*/https://dph.georgia.gov/covid-19-daily-status-report)
 
