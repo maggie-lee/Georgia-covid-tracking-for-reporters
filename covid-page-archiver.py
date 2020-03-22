@@ -22,6 +22,7 @@ def older_than_tolerance(last_stamp: str, tolerance=1):
     if tolerance is None:
         tolerance = 1
     stamp1 = datetime.strptime(last_stamp, "%Y%m%d%H%M%S")
+    print("Page last archived: {} UTC".format(stamp1))
     diff = datetime.utcnow() - stamp1
     if diff.seconds > (tolerance * 3660):  # tolerance in hours
         return True
@@ -30,9 +31,10 @@ def older_than_tolerance(last_stamp: str, tolerance=1):
 
 def get_last_save(page_url):
     res = requests.get('http://archive.org/wayback/available?url={}'.format(page_url))
-    if res and res.json().get('archived_snapshots').get('closest'):
+    if res and res.json().get('archived_snapshots') and res.json().get('archived_snapshots').get('closest'):
         return res.json()['archived_snapshots']['closest']['timestamp'], res.json()['archived_snapshots']['closest'][
             'url']
+    return None, None
 
 
 def page_has_changed(page_url, latest_archived_page_url, tolerance=10):
@@ -77,8 +79,11 @@ def schedule_it(every_x_hours: int = 4):
 def main():
     last_saved_timestamp, last_url = get_last_save(PAGE_URL)
     if last_saved_timestamp:
+        print("Found page on Wayback Machine. Checking when it was last archived...")
         if older_than_tolerance(last_stamp=last_saved_timestamp, tolerance=TIME_TOLERANCE):
+            print("Page has not been archived recently. Checking if page has changed...")
             if page_has_changed(PAGE_URL, last_url, tolerance=CHANGE_THRESHOLD):
+                print("Page has changed. Archiving...")
                 if archive(PAGE_URL):
                     print("Page archived successfully.")
                 else:
@@ -88,7 +93,11 @@ def main():
         else:
             print("Page has been recently archived.")
     else:
-        print("Could not find page on Wayback Machine.")
+        print("Could not find page on Wayback Machine. Automatically archiving...")
+        if archive(PAGE_URL):
+            print("Page archived successfully.")
+        else:
+            print("Page could not be archived.")
 
 
 def setup():
