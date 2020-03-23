@@ -13,7 +13,9 @@ It looks like several bots are archiving the state's page every couple of hours.
 
 I started running one myself March 18. Its that file above, covid-page-archiver-simple.py. It'll archive the state page two or three times a day or so.
 
-UPDATE March 23: All the high fives to [Nate Harris](https://github.com/nwithan8) for writing like a do-it-all version of this archiver with scheduling, command-line arguments, fine controls.  🙏
+UPDATE March 23: All the high fives to [Nate Harris](https://github.com/nwithan8) for writing like a do-it-all version of this archiver with scheduling, command-line arguments, fine controls.
+
+All that is in covid-page-archiver.py and requirements.txt above and in [Nate's Github](https://github.com/nwithan8/Georgia-covid-tracking-for-reporters).  🙏
 
 #### Changes to the page
 
