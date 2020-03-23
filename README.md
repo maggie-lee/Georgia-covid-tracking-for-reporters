@@ -19,7 +19,7 @@ All that is in covid-page-archiver.py and requirements.txt above and in [Nate's 
 
 #### Changes to the page
 
-If you want an alert for changes to the page and are not into coding, I'd recommend [Distill.io](https://www.distill.io) BUT the free tier only checks every six hours.
+If you want an alert for changes to the page and are not into coding or the command line, I'd recommend [Distill.io](https://www.distill.io) BUT the free tier only checks every six hours.
 If you want more frequent checks, I'm not aware of any free service to do that, but the Distill paid tier will do it, and probably some other sites would too.
 
 
