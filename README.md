@@ -23,7 +23,7 @@ On April 1, I started a bot to archive that inset page. That's the file covid-pa
 
 Several bots were archiving this already when I started one on March 18. 
 
-UPDATE March 23: All the high fives to [Nate Harris](https://github.com/nwithan8) for writing like a do-it-all version of this archiver with scheduling, command-line arguments, fine controls.
+All the high fives to [Nate Harris](https://github.com/nwithan8) for writing like a do-it-all version of this archiver with scheduling, command-line arguments, fine controls. Like, you could use it to archive any page, not just the covid page.
 
 All that is in covid-page-archiver.py and requirements.txt above and in [Nate's Github](https://github.com/nwithan8/Georgia-covid-tracking-for-reporters).  🙏
 
