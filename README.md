@@ -9,7 +9,7 @@ If you want to track changes over time in the number of tests or number of cases
 
 #### Archived copies of the state page from **03/30/2020 19:07:03 until ???? but missing 3/31**
 
-[Archived copies of the daily Georgia COVID-19 status report starting April 1].(https://web.archive.org/web/*/https://d20s4vd27d0hk0.cloudfront.net/)
+[Archived copies of the daily Georgia COVID-19 status report starting April 1](https://web.archive.org/web/*/https://d20s4vd27d0hk0.cloudfront.net/).
 
 On or about 3/27, the state changed how it publishes the page -- technically, the state put the data on an inset page. A viewer can't see the difference, but a robot can, and basically the robot needed a reset to tell it "pick up the inset page with the data." 
 
