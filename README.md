@@ -29,7 +29,7 @@ All that is in covid-page-archiver.py and requirements.txt above and in [Nate's 
 
 #### All the diagnosis numbers from every county from all the days
 
-The New York Times is publishing data that shows cumulative counts of coronoavirus cases in every county in the U.S. Their data is at [NY Times Github].(https://github.com/nytimes/covid-19-data)
+The New York Times is publishing data that shows cumulative counts of coronoavirus cases in every county in the U.S. Their data is at [NY Times Github](https://github.com/nytimes/covid-19-data).
 
 #### Changes to the Georgia page
 
