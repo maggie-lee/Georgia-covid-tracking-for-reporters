@@ -5,19 +5,33 @@ The Georgia Department of Public Health is publishing a daily COVID-19 status re
  
 [https://dph.georgia.gov/covid-19-daily-status-report](https://dph.georgia.gov/covid-19-daily-status-report)
 
-#### Archived copies of the state page
+If you want to track changes over time in the number of tests or number of cases, you can get archived copies of earlier versions of the state page at the Internet Archive's Wayback Machine. Several bots are tracking the state report page and periodically submitting the page to the Internet Archive. It's just snapshots of what the page looked like at various times in the past.
 
-If you want to track changes over time in the number of tests or number of cases, you can get archived copies of earlier versions of the state page at the Internet Archive's Wayback Machine.
+#### Archived copies of the state page from **03/30/2020 19:07:03 until ???? but missing 3/31**
 
-It looks like several bots are archiving the state's page every couple of hours. So you can see [archived copies of the state page.](https://web.archive.org/web/*/https://dph.georgia.gov/covid-19-daily-status-report)
+[Archived copies of the daily Georgia COVID-19 status report starting April 1].(https://web.archive.org/web/*/https://d20s4vd27d0hk0.cloudfront.net/)
 
-I started running one myself March 18. Its that file above, covid-page-archiver-simple.py. It'll archive the state page two or three times a day or so.
+On or about 3/27, the state changed how it publishes the page -- technically, the state put the data on an inset page. A viewer can't see the difference, but a robot can, and basically the robot needed a reset to tell it "pick up the inset page with the data." 
+
+But I didn't realize that for a couple of days, so this method is missing some days.
+
+On April 1, I started a bot to archive that inset page. That's the file covid-page-archiver-simple.py above. Some other bot was already archiving it too. 
+
+#### Archived copies of the state page from 3/14/2020 to about 3/27/2020, 12:00pm
+
+[Archived copies of the state page, volume 1.](https://web.archive.org/web/*/https://dph.georgia.gov/covid-19-daily-status-report)
+
+Several bots were archiving this already when I started one on March 18. 
 
 UPDATE March 23: All the high fives to [Nate Harris](https://github.com/nwithan8) for writing like a do-it-all version of this archiver with scheduling, command-line arguments, fine controls.
 
 All that is in covid-page-archiver.py and requirements.txt above and in [Nate's Github](https://github.com/nwithan8/Georgia-covid-tracking-for-reporters).  🙏
 
-#### Changes to the page
+#### All the diagnosis numbers from every county from all the days
+
+The New York Times is publishing data that shows cumulative counts of coronoavirus cases in every county in the U.S. Their data is at [NY Times Github].(https://github.com/nytimes/covid-19-data)
+
+#### Changes to the Georgia page
 
 If you want an alert for changes to the page and are not into coding or the command line, I'd recommend [Distill.io](https://www.distill.io) BUT the free tier only checks every six hours.
 If you want more frequent checks, I'm not aware of any free service to do that, but the Distill paid tier will do it, and probably some other sites would too.
