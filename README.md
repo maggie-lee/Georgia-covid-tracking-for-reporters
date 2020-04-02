@@ -7,9 +7,9 @@ The Georgia Department of Public Health is publishing a daily COVID-19 status re
 
 If you want to track changes over time in the number of tests or number of cases, you can get archived copies of earlier versions of the state page at the Internet Archive's Wayback Machine. Several bots are tracking the state report page and periodically submitting the page to the Internet Archive. It's just snapshots of what the page looked like at various times in the past.
 
-#### Archived copies of the state page from **03/30/2020 19:07:03 until ???? but missing 3/31 & 4/1**
+#### Archived copies of the state page from **03/30/2020 19:07:03 until ???? but spotty on 3/31 & 4/1**
 
-[Archived copies of the daily Georgia COVID-19 status report starting April 2](https://web.archive.org/web/*/https://d20s4vd27d0hk0.cloudfront.net/).
+[Archived copies of the daily Georgia COVID-19 status report starting late April 1.](https://web.archive.org/web/*/https://d20s4vd27d0hk0.cloudfront.net/).
 
 On or about 3/27, the state changed how it publishes the page -- technically, the state put the data on an inset page. A viewer can't see the difference, but a robot can, and basically the robot needed a reset to tell it "pick up the inset page with the data." 
 
