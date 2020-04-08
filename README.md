@@ -1,6 +1,8 @@
 # Georgia-covid-tracking-for-reporters
 Reporter resources for tracking covid-19 in Georgia
 
+Compiled by Maggie Lee
+
 The Georgia Department of Public Health is publishing a daily COVID-19 status report:
  
 [https://dph.georgia.gov/covid-19-daily-status-report](https://dph.georgia.gov/covid-19-daily-status-report)
