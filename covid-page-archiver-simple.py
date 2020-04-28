@@ -16,5 +16,5 @@ import requests
 #
 # 2. I myself run this code twice a day as a scheduled task on PythonAnywhere, a service that runs python in the cloud for you.
 
-url_to_submit = 'https://web.archive.org/save/https://d20s4vd27d0hk0.cloudfront.net/'
+url_to_submit = 'https://web.archive.org/save/https://ga-covid19.ondemand.sas.com'
 response = requests.get(url_to_submit, headers = {'user-agent':'@{} goverment archiving bot'.format('@gapolbot')})
