@@ -12,7 +12,7 @@ If you want to track changes over time in the number of tests or number of cases
 #### Archived copies of the state page from 04/28/20 to ???
 [Archived copies of the daily Georgia COVID-19 status report starting April 28](https://web.archive.org/web/*/https://ga-covid19.ondemand.sas.com/).
 On or about April 27, the state changed how it published the page again. So I had to adjust my archiving bot again. We'll see how it goes 
- 🤔. Stay tuned
+ 🤔. Stay tuned. I can say *you prolly have to turn off your ad-blocker* to view the state page.
 
 #### Archived copies of the state page from **03/30/2020 19:07:03 until about 4/27 but somewhat spotty**
 
